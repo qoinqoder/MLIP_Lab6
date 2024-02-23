@@ -23,7 +23,7 @@ pipeline {
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
                 sudo /home/team13/miniconda3/condabin/conda run -n base pytest
 
-                echo 'pytest not runned'
+                #echo 'pytest not runned'
                 #exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
